@@ -27,13 +27,12 @@ To use this tool, you’ll need a Yandex Disk API key. Obtain it by following th
     pip install moviepy
     ```
 3. **Optional: Install LLaMA Support**    
-    To use the version with LLaMA support, install the package below. If you need GPU support or alternative installation methods, refer to the [llama-cpp-python documentation](https://github.com/abetlen/llama-cpp-python).
    ```bash
     pip install llama-cpp-python
     ```
-
+    To use the version with LLaMA support, install the package below. If you need GPU support or alternative installation methods, refer to the [llama-cpp-python documentation](https://github.com/abetlen/llama-cpp-python).
    
-### Quick Install
+## Quick Install
 
 To install everything at once, use one of the following commands:
 
@@ -52,7 +51,7 @@ sudo apt update && sudo apt install ffmpeg && sudo apt install redis-server && p
 To download llama models [click here](https://huggingface.co/Apeellsin4ik/saiga_on_llama3).
 
 
-### Running the Server
+## Running the Server
 To start the FastAPI server and Celery worker:
 **Llama:**
 ```bash
