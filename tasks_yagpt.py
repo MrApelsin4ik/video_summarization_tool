@@ -21,7 +21,7 @@ redis_client = Redis(host='localhost', port=6379, db=0)
 def process_text_with_yandex_gpt(text, task):
     print(f"{task}: {text}")
     prompt = {
-        "modelUri": "gpt://b1gvoaoui9vn33q5fha8/yandexgpt-lite",
+        "modelUri": "gpt://<ВАШ_ИДЕНТИФИКАТОР_КАТАЛОГА>/yandexgpt-lite",
         "completionOptions": {
             "stream": False,
             "temperature": 0.6,
