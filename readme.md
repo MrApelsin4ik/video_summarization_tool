@@ -42,6 +42,9 @@ To use this tool, you’ll need a Yandex Disk API key. Obtain it by following th
     sudo apt update && sudo apt install ffmpeg && sudo apt install redis-server && pip install fastapi[all] git+https://github.com/openai/whisper.git celery redis moviepy
     ```
 
+**Download llama models**
+    To download llama models [click here]([Apeellsin4ik/saiga_on_llama3](https://huggingface.co/Apeellsin4ik/saiga_on_llama3).
+
 **Running the Server**
     To start the FastAPI server and Celery worker:
     Llama:
