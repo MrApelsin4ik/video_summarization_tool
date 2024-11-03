@@ -43,7 +43,7 @@ To use this tool, you’ll need a Yandex Disk API key. Obtain it by following th
     ```
 
 **Download llama models**
-    To download llama models [click here]([Apeellsin4ik/saiga_on_llama3](https://huggingface.co/Apeellsin4ik/saiga_on_llama3).
+To download llama models [click here](https://huggingface.co/Apeellsin4ik/saiga_on_llama3).
 
 **Running the Server**
     To start the FastAPI server and Celery worker:
