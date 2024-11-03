@@ -53,16 +53,16 @@ To download llama models [click here](https://huggingface.co/Apeellsin4ik/saiga_
 
 
 ### Running the Server
-    To start the FastAPI server and Celery worker:
-    **Llama:**
-    ```bash
-        uvicorn main:app --reload --host 0.0.0.0 & celery -A tasks_llama worker
-     ```
-    **YaGPT:**
-    ```bash
-        uvicorn main:app --reload --host 0.0.0.0 & celery -A tasks_yagpt worker
-     ```
+To start the FastAPI server and Celery worker:
+**Llama:**
+```bash
+    uvicorn main:app --reload --host 0.0.0.0 & celery -A tasks_llama worker
+ ```
+**YaGPT:**
+```bash
+    uvicorn main:app --reload --host 0.0.0.0 & celery -A tasks_yagpt worker
+ ```
 
 ### Usage Example
-    Refer to the using.py file for examples on how to make API requests to this tool.
+Refer to the using.py file for examples on how to make API requests to this tool.
 
