@@ -33,13 +33,13 @@ To use this tool, you’ll need a Yandex Disk API key. Obtain it by following th
     ```
 **Quick Install**
     To install everything at once, use one of the following commands:
-    With LLaMA support:
+With LLaMA support:
 ```bash
-    sudo apt update && sudo apt install ffmpeg && sudo apt install redis-server && pip install fastapi[all] git+https://github.com/openai/whisper.git celery redis moviepy llama-cpp-python
+sudo apt update && sudo apt install ffmpeg && sudo apt install redis-server && pip install fastapi[all] git+https://github.com/openai/whisper.git celery redis moviepy llama-cpp-python
  ```
-    Without LLaMA support:
+Without LLaMA support:
 ```bash
-    sudo apt update && sudo apt install ffmpeg && sudo apt install redis-server && pip install fastapi[all] git+https://github.com/openai/whisper.git celery redis moviepy
+sudo apt update && sudo apt install ffmpeg && sudo apt install redis-server && pip install fastapi[all] git+https://github.com/openai/whisper.git celery redis moviepy
 ```
 
 **Download llama models**
