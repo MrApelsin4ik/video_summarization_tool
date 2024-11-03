@@ -32,7 +32,7 @@ To use this tool, you’ll need a Yandex Disk API key. Obtain it by following th
     pip install llama-cpp-python
     ```
 **Quick Install**
-    To install everything at once, use one of the following commands:
+To install everything at once, use one of the following commands:
 With LLaMA support:
 ```bash
 sudo apt update && sudo apt install ffmpeg && sudo apt install redis-server && pip install fastapi[all] git+https://github.com/openai/whisper.git celery redis moviepy llama-cpp-python
