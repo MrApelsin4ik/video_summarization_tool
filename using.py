@@ -59,26 +59,26 @@ def get_summarization_result(task_id):
 
 
 def main():
-    # Отправляем запрос на суммаризацию
+    # Sending summarization request
     task_id = submit_summarization_task(data)
 
     if not task_id:
         print("Не удалось создать задачу.")
         return
 
-    # Ожидаем выполнения задачи и проверяем её статус
+    # Waiting for finish of task and getiing result
     while True:
         status = check_task_status(task_id)
         if status == "completed":
             break
         elif status == "pending":
             print("Задача ещё выполняется...")
-            time.sleep(5)  # Ждем 5 секунд перед повторной проверкой
+            time.sleep(5)  # Wait 5 sec before next try
         else:
             print("Ошибка выполнения задачи.")
             return
 
-    # Получаем и выводим результат суммаризации
+    # Getting and printing summarization result
     get_summarization_result(task_id)
 
 
